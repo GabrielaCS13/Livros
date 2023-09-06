@@ -1,0 +1,39 @@
+﻿@model Livro
+@{
+    ViewData["title"] = "Excluir Livro";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Excluir Livro</h1>
+    </div>
+    <form method="post" asp-controller="Livro" asp-action="Excluir">
+        <input type="hidden" asp-formaction="Id" />
+        <div class="form-group">
+            <label for="Nome" class="text-light">Endereço de email</label>
+            <input type="text" class="form-control" asp-for="Nome" disabled id="Nome" aria-describedby="emailHelp" placeholder="Qual o nome" />
+            <span class="text-danger" asp-validation-for="Nome"></span>
+        </div>
+        <div class="form-group">
+            <label for="Autor" class="text-light">Autor</label>
+            <input type="text" class="form-control" asp-for="Autor" disabled id="Autor" aria-describedby="emailHelp" placeholder="Qual o autor?" />
+            <span class="text-danger" asp-validation-for="Autor"></span>
+        </div>
+        <div class="form-group">
+            <label for="Descricao" class="text-light">Descricao</label>
+            <input type="text" class="form-control" asp-for="Descricao" disabled id="Livro" aria-describedby="emailHelp" placeholder="Que Descricao?" />
+            <span class="text-danger" asp-validation-for="Descricao"></span>
+        </div>
+        <div class="form-group">
+            <label for="Genero" class="text-light">Genero</label>
+            <input type="text" class="form-control" asp-for="Genero" disabled id="Livro" aria-describedby="emailHelp" placeholder="Qual é o genero?" />
+            <span class="text-danger" asp-validation-for="Genero"></span>
+        </div>
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-success w-50">Excluir</button>
+            <a class="btn btn-primary w-50" asp-controller="Descrição" asp-action="Index">Voltar</a>
+        </div>
+    </form>
+</div>
+

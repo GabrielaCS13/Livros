@@ -1,0 +1,8 @@
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.RazorAssemblyInfo.cache
+C:\Users\Aluno\source\repos\Livro\obj\Debug\net6.0\Livro.RazorAssemblyInfo.cs
